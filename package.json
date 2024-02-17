@@ -1,0 +1,21 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "\"Ejemplo de un e-commerce funcional usando Mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node comercio/server.js",
+    "server": "nodemon comercio/server.js"
+  },
+  "author": "Lalo",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
